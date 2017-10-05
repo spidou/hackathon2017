@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $('.quizz').slick({
-    
+    dots: true
   });
 });
 
