@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Project Seven</title>
+    <title>Je comprends mes analyses</title>
 
     <!-- Bootstrap -->
     <link href="bower_components/gentelella/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -46,10 +46,10 @@
             <!-- menu profile quick info -->
             <div class="profile clearfix">
               <div class="profile_pic">
-                <img src="images/avatar.png" alt="..." class="img-circle profile_img">
+                <img src="images/img.png" alt="..." class="img-circle profile_img">
               </div>
               <div class="profile_info">
-                <em>Bienvenue,</em>
+                <span>Bienvenue</span>
                 <h2>P. Bertrand</h2>
               </div>
             </div>
@@ -60,14 +60,22 @@
             <!-- sidebar menu -->
             <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
               <div class="menu_section">
+                <h3>Mon espace</h3>
                 <ul class="nav side-menu">
-                  <li><a><i class="fa fa-home"></i>Accueil<span class="fa fa-chevron-down"></span></a></li>
-                  <li><a><i class="fa fa-book"></i>Offre de Soins <span class="fa fa-chevron-down"></span></a></li>
-                  <li><a><i class="fa fa-folder-open"></i>Portail Santé Régional <span class="fa fa-chevron-down"></span></a></li>
-                  <li><a><i class="fa fa-tint"></i>Ma Biologie <span class="fa fa-chevron-down"></span></a></li>
-                  <li><a><i class="fa fa-bar-chart"></i>Mon Suivi Glycémique <span class="fa fa-chevron-down"></span></a></li>
-                  <li><a><i class="fa fa-wifi"></i>Mes Objets Connectés <span class="fa fa-chevron-down"></span></a></li>
-                  <li><a><i class="fa fa-users"></i>Mon Coaching Santé <span class="fa fa-chevron-down"></span></a></li>
+                  <li><a href="dashboard.html"><i class="fa fa-home"></i>Accueil</span></a></li>
+                  <li class="current-page"><a href="analyse.html"><i class="fa fa-tint"></i>Ma Biologie </span></a></li>
+                  <li><a><i class="fa fa-bar-chart"></i>Mon Suivi Glycémique </span></a></li>
+                  <li><a><i class="fa fa-wifi"></i>Mes Objets Connectés </span></a></li>
+                  <li><a><i class="fa fa-users"></i>Mon Coaching Santé </span></a></li>
+                </ul>
+              </div>
+              
+              <div class="menu_section">
+                <h3>Liens utiles</h3>
+                <ul class="nav side-menu">
+                  <li><a><i class="fa fa-book"></i>Offre de Soins </span></a></li>
+                  <li><a><i class="fa fa-folder-open"></i>Portail Santé Régional </span></a></li>
+                </ul>
               </div>
             </div>
             <!-- /sidebar menu -->
@@ -85,9 +93,20 @@
               <ul class="nav navbar-nav navbar-right">
                 <li class="">
                   <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                    <img src="images/avatar.png" alt="">P. Bertrand
+                    <img src="images/img.png" alt="">P. Bertrand
                     <span class=" fa fa-angle-down"></span>
                   </a>
+                  <ul class="dropdown-menu dropdown-usermenu pull-right">
+                    <li><a href="javascript:;"> Profil</a></li>
+                    <li>
+                      <a href="javascript:;">
+                        <span class="badge bg-red pull-right">50%</span>
+                        <span>Paramètres</span>
+                      </a>
+                    </li>
+                    <li><a href="javascript:;">Aide</a></li>
+                    <li><a href="index.html"><i class="fa fa-sign-out pull-right"></i> Se déconnecter</a></li>
+                  </ul>
                 </li>
               </ul>
             </nav>

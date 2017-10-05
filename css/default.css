@@ -85,6 +85,10 @@ h1, h2 {
   padding-top: 5px;
 }
 
+.nav_title {
+  height: 80px;
+}  
+
 .img-circle.profile_img {
   padding: 0;
 }
@@ -194,3 +198,17 @@ div.understanding {
   margin-top: 250px;
   transform: translateY(-50%);
 }
+.score {
+  text-align: center;
+}
+
+#preview-textfield {
+  display: block;
+  margin-bottom: -10px;
+}
+
+.demo-placeholder {
+    height: 385px;
+}
+
+.analysepdf { height: 700px;}
