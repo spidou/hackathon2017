@@ -99,7 +99,7 @@
         <div class="right_col" role="main">
 
           <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12" id="quizz-container">
+            <div class="col-md-12 col-sm-12 col-xs-12 text-center" id="quizz-container">
               <div class="dashboard_graph">
                 <div class="quizz">
 
@@ -107,7 +107,7 @@
                     <div class="row" id="top-frame">
                       <div class="col-xs-8 col-xs-offset-2"><h1 class="text-center">La Tension Artérielle</h1></div>
                       <label class="col-xs-8 col-xs-offset-2 text-center">Quelle est ma dernière tension artérielle ?</label>
-                      <input class="col-xs-8 col-xs-offset-2 text-center" type="text" placeholder="160mmHg" disabled id="ma-tension" />
+                      <input class="col-xs-8 col-xs-offset-2 text-center" type="text" placeholder="160 mmHg" disabled id="ma-tension" />
                     </div>
                     <div class="row understanding">
                       <div class="row validation">
@@ -122,7 +122,7 @@
                           <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
                         </span>
                       </div>
-                    </div class="row">
+                    </div>
                   </div>
 
                   <div>
@@ -144,7 +144,7 @@
                           <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
                         </span>
                       </div>
-                    </div class="row">
+                    </div>
                   </div>
 
                   <div>
@@ -166,14 +166,14 @@
                           <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
                         </span>
                       </div>
-                    </div class="row">
+                    </div>
                   </div>
 
                   <div>
                     <div class="row" id="top-frame">
                       <div class="col-xs-8 col-xs-offset-2"><h1 class="text-center">La Glycémie</h1></div>
                       <label class="col-xs-8 col-xs-offset-2 text-center">Quelle est ma dernière glycémie ?</label>
-                      <input class="col-xs-8 col-xs-offset-2 text-center" type="text" placeholder="1,66 mg/L" disabled id="ma-glycemie" />
+                      <input class="col-xs-8 col-xs-offset-2 text-center" type="text" placeholder="1,66 g/L" disabled id="ma-glycemie" />
                     </div>
                     <div class="row understanding">
                       <div class="row validation">
@@ -188,14 +188,14 @@
                           <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
                         </span>
                       </div>
-                    </div class="row">
+                    </div>
                   </div>
 
                   <div>
                     <div class="row" id="top-frame">
                       <div class="col-xs-8 col-xs-offset-2"><h1 class="text-center">Le Tour de Taille</h1></div>
                       <label class="col-xs-8 col-xs-offset-2 text-center">Quelle est mon tour de taille ?</label>
-                      <input class="col-xs-8 col-xs-offset-2 text-center" type="text" placeholder="160mmHg" disabled id="mon-tour-de-taille" />
+                      <input class="col-xs-8 col-xs-offset-2 text-center" type="text" id="mon-tour-de-taille" />
                     </div>
                     <div class="row understanding">
                       <div class="row validation">
@@ -206,20 +206,20 @@
                       </div>
                       <div class="row redirection">
                         <span class="text-center col-xs-8 col-xs-offset-2">
-                          <p>Je souhaite voir une courte vidéo explicative pour comprendre ce qu'est la tour de taille.</p>
+                          <p>Je souhaite voir une courte vidéo explicative pour comprendre ce qu'est le tour de taille.</p>
                           <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span>
                         </span>
                       </div>
-                    </div class="row">
+                    </div>
                   </div>
 
                   <div>
-                    <div class="row" id="top-frame">
+                    <div class="row tabac-cont" id="top-frame">
                       <div class="col-xs-8 col-xs-offset-2"><h1 class="text-center">Le Tabagisme</h1></div>
                       <label class="col-xs-8 col-xs-offset-2 text-center">Suis-je fumeur ?</label>
-                      <form class="col-xs-8 col-xs-offset-2 text-center" id="tabagisme">
-                        <input type="radio" name="tabagisme" value="oui">Oui<br>
-                        <input type="radio" name="tabagisme" value="non">Non<br>
+                      <form class="col-xs-8 col-xs-offset-2 text-center input-group" id="tabagisme">
+                        <input type="radio" name="tabagisme" value="Oui" id="radio-oui" />&nbsp;Oui
+                        <input type="radio" name="tabagisme" value="Non" id="radio-non" />&nbsp;Non
                       </form> 
                     </div>
                     <div class="row understanding">
@@ -228,10 +228,17 @@
                           <span class="glyphicon glyphicon-ok-sign next-slick" aria-hidden="true"></span>
                         </span>
                       </div>
-                    </div class="row">
+                    </div>
                   </div>
+
+                  <div class="row">
+                    <div class="col-xs-8 col-xs-offset-2 text-center">
+                      <button id="score-button">Calculer votre score</button>
+                    </div>
+                  </div>
+
+                  <div class="clearfix"></div>
                 </div>
-                <div class="clearfix"></div>
               </div>
             </div>
 
