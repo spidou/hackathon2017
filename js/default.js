@@ -87,7 +87,8 @@ var arr_data1 = [
 $(document).ready(function() {
   if ($('.quizz').length) {
     $('.quizz').slick({
-      dots: true
+      dots: true,
+      draggable: false
     });
   }
   

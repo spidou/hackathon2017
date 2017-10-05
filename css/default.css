@@ -1,7 +1,3 @@
-.quizz {
-  color: #555;
-}
-
 div.item {
   padding: 0 10px;
 }
@@ -10,18 +6,13 @@ div.right_col {
   min-height: 0;
 }
 
-.site_title {
-  line-height: 23px;
-  padding: 5px 5px;
-}
-
 div.profile_info {
   padding: 0;
 }
 
-
 .img-circle.profile_img {
   margin-top: 0;
+  padding: 0;
 }
 
 .img-circle.profile_info {
@@ -50,6 +41,10 @@ h1, h2 {
   font-weight: bold;
 }
 
+.quizz {
+  color: #555;
+}
+
 .quizz label {
   font-size: 24px;
 }
@@ -58,40 +53,14 @@ h1, h2 {
   font-size: 24px;
 } 
 
-.info {
-  padding-left: 0;
-}
-
-.glyphicon-ok-sign {
-  color: #555;
-  transition: color ease-in-out .2s;
-}
-
-.glyphicon-ok-sign:hover {
-  color: green;
-}
-
-.glyphicon-question-sign {
-  color: #555;
-  transition: color ease-in-out .2s;
-}
-
-.glyphicon-question-sign:hover {
-  color: red;
-}
-
 .site_title {
   line-height: 23px;
-  padding-top: 5px;
+  padding: 5px 5px;
 }
 
 .nav_title {
   height: 80px;
 }  
-
-.img-circle.profile_img {
-  padding: 0;
-}
 
 #top-frame>div{
   padding: 0;
@@ -105,8 +74,8 @@ h1, h2 {
   margin: 50px 0;
 }
 
-.glyphicon {
-  font-size: 36px;
+span.glyphicon {
+  margin: 10px;
 }
 
 #logo {
@@ -118,12 +87,10 @@ h1, h2 {
 }
 
 .glyphicon-ok-sign {
-  color: #555;
-  transition: color ease-in-out .5s;
-}
-
-.glyphicon-ok-sign:hover {
+  font-size: 72px;
   color: green;
+  transition: color ease-in-out .5s;
+  cursor: pointer;
 }
 
 .glyphicon-question-sign {
@@ -131,24 +98,24 @@ h1, h2 {
   transition: color ease-in-out .5s;
 }
 
-.glyphicon-question-sign:hover {
+.glyphicon-question-sign {
   color: red;
 }
 
-.dashboard_graph {
+.quizz {
   padding: 0;
 }
 
-.dashboard_graph p {
+.quizz p {
   line-height: 1.5;
   font-size: 22px;
 }
 
-.dashboard_graph p:last-child {
+.quizz p:last-child {
   margin: 0;
 }
 
-.dashboard_graph p:not(:last-child) {
+.quizz p:not(:last-child) {
   margin: 0 0 10px;
 }
 
@@ -158,10 +125,6 @@ h1, h2 {
 
 .validation>span:not(:last-child) {
   margin-bottom: 15px;
-}
-
-span.glyphicon {
-  margin: 10px;
 }
 
 #logo_jcma {
@@ -211,4 +174,4 @@ div.understanding {
     height: 385px;
 }
 
-.analysepdf { height: 700px;}
+.analysepdf { height: 500px;}
